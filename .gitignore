@@ -1,0 +1,12 @@
+f_actions
+m_actions
+terminal_states
+experiment_id
+experiment_seed
+__pycache__
+*.txt
+*.csv
+*.png
+out/*
+qtables/*
+figs/*
