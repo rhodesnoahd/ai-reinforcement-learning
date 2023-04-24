@@ -37,7 +37,8 @@ WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption(f"Reinforcement Learning Visualization | Experiment: {id} | Seed: {seed}")
 
 # colors
-LIGHT_YELLOW = (255, 255, 204)
+LIGHT_BLUE = (204, 255, 255)
+SOFT_GREY = (250, 250, 250)
 PURPLE = (128, 0, 128)
 
 # speed of execution
@@ -400,7 +401,7 @@ def draw_window(c, agent, b):
     draws the window for each frame by blitting static assets and
     conditionally blitting dynamic assets
     """
-    WIN.fill(LIGHT_YELLOW)
+    WIN.fill(SOFT_GREY)
 
     WIN.blit(grid, Z1_LOCATION)
     WIN.blit(grid, Z2_LOCATION)
